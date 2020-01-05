@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showjobpost"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_addjob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginRight="25dp"
+
+        android:text="Add jobs?"
+        android:textSize="20sp"
+        android:background="@drawable/bg_ui"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/postkolagirecycleviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
